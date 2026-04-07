@@ -1,0 +1,52 @@
+ห้อง,ตึก,ชั้น,ประเภทห้อง,ค่าห้องต่อคืน,สถานะ
+A101,A,1,Standard,400,ว่าง
+A102,A,1,Standard,400,ว่าง
+A103,A,1,Standard,400,ว่าง
+A104,A,1,Standard,400,ว่าง
+A105,A,1,Standard,400,ว่าง
+A106,A,1,Standard Twin,500,ว่าง
+A107,A,1,Standard Twin,500,ว่าง
+A108,A,1,Standard Twin,500,ว่าง
+A109,A,1,Standard Twin,500,ว่าง
+A110,A,1,Standard Twin,500,ว่าง
+A111,A,1,Standard,400,ว่าง
+A201,A,2,Standard,400,ว่าง
+A202,A,2,Standard,400,ว่าง
+A203,A,2,Standard,400,ว่าง
+A204,A,2,Standard,3500/เดือน,รายเดือน
+A205,A,2,Standard,3500/เดือน,รายเดือน
+A206,A,2,Standard,3500/เดือน,รายเดือน
+A207,A,2,Standard,400,ว่าง
+A208,A,2,Standard,3500/เดือน,รายเดือน
+A209,A,2,Standard,400,ว่าง
+A210,A,2,Standard,400,ว่าง
+A211,A,2,Standard,3500/เดือน,รายเดือน
+B101,B,1,Standard,400,ว่าง
+B102,B,1,Standard,400,ว่าง
+B103,B,1,Standard,400,ว่าง
+B104,B,1,Standard,400,ว่าง
+B105,B,1,Standard,400,ว่าง
+B106,B,1,Standard,400,ว่าง
+B107,B,1,Standard,400,ว่าง
+B108,B,1,Standard,400,ว่าง
+B109,B,1,Standard,400,ว่าง
+B110,B,1,Standard,400,ว่าง
+B111,B,1,Standard Twin,500,ว่าง
+B201,B,2,Standard,400,ว่าง
+B202,B,2,Standard,400,ว่าง
+B203,B,2,Standard,400,ว่าง
+B204,B,2,Standard,400,ว่าง
+B205,B,2,Standard,400,ว่าง
+B206,B,2,Standard,400,ว่าง
+B207,B,2,Standard,400,ว่าง
+B208,B,2,Standard,400,ว่าง
+B209,B,2,Standard,400,ว่าง
+B210,B,2,Standard,400,ว่าง
+B211,B,2,Standard,400,ว่าง
+N1,N,1,Standard Twin,600,ว่าง
+N2,N,1,Standard,500,ว่าง
+N3,N,1,Standard,500,ว่าง
+N4,N,1,Standard Twin,600,ว่าง
+N5,N,1,Standard Twin,600,ว่าง
+N6,N,1,Standard Twin,600,ว่าง
+N7,N,1,Standard,500,ว่าง
