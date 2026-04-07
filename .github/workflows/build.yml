@@ -58,14 +58,6 @@ jobs:
         run: |
           cd frontend && npm install
 
-      - name: Install Capacitor
-        run: |
-          cd frontend && npm install @capacitor/cli @capacitor/core @capacitor/android
-
-      - name: Add Android platform
-        run: |
-          cd frontend && npx cap add android || true
-
       - name: Build Web App
         run: |
           cd frontend && npm run build
