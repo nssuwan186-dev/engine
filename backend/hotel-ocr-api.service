@@ -1,0 +1,17 @@
+[Unit]
+Description=Hotel OCR API Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/engine/backend
+ExecStart=/root/engine/backend/bin/api
+Restart=always
+RestartSec=10
+Environment="PORT=8080"
+Environment="DATABASE_PATH=/root/engine/backend/data/hotel.db"
+Environment="LOG_PATH=/root/engine/backend/logs"
+
+[Install]
+WantedBy=multi-user.target

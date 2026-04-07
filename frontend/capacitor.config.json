@@ -1,0 +1,30 @@
+{
+  "appId": "com.hotel.ocr.app",
+  "appName": "Hotel OCR",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "url": "http://localhost:8080"
+  },
+  "android": {
+    "contentInset": "automatic",
+    "allowMixedContent": true,
+    "backgroundColor": "#ffffff",
+    "buildOptions": {
+      "keystorePath": null,
+      "keystoreAlias": null,
+      "keystorePassword": null,
+      "keystoreKeyPassword": null
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#2563eb"
+    },
+    "StatusBar": {
+      "style": "LIGHT",
+      "backgroundColor": "#2563eb"
+    }
+  }
+}
