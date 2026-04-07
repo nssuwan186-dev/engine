@@ -85,7 +85,7 @@ jobs:
 
       - name: Sync Capacitor
         run: |
-          cd frontend && npx cap sync android
+          cd frontend && npm install @capacitor/cli @capacitor/core @capacitor/android && npx cap sync android
 
       - name: Build Android APK
         run: |
