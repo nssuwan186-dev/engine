@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HotelOCR</string>
+    <string name="title_activity_main">HotelOCR</string>
+    <string name="package_name">com.hotel.ocr.app</string>
+    <string name="custom_url_scheme">com.hotel.ocr.app</string>
+</resources>

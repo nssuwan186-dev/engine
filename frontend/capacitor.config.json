@@ -1,10 +1,9 @@
 {
   "appId": "com.hotel.ocr.app",
-  "appName": "Hotel OCR",
+  "appName": "HotelOCR",
   "webDir": "dist",
   "server": {
-    "androidScheme": "https",
-    "url": "http://localhost:8080"
+    "androidScheme": "https"
   },
   "android": {
     "contentInset": "automatic",
