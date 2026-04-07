@@ -35,32 +35,7 @@ jobs:
           name: backend-binaries
           path: backend/bin/
 
-  build-frontend:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: |
-          cd frontend && npm install
-
-      - name: Build frontend
-        run: |
-          cd frontend && npm run build
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: frontend-dist
-          path: frontend/dist/
-
   build-android:
-    needs: build-frontend
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -73,19 +48,25 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v2
 
-      - name: Install frontend dependencies
+      - name: Install dependencies
         run: |
           cd frontend && npm install
 
-      - name: Download frontend build
-        uses: actions/download-artifact@v4
-        with:
-          name: frontend-dist
-          path: frontend/dist/
-
-      - name: Sync Capacitor
+      - name: Install Capacitor
         run: |
-          cd frontend && npm install @capacitor/cli @capacitor/core @capacitor/android && npx cap sync android
+          cd frontend && npm install @capacitor/cli @capacitor/core @capacitor/android
+
+      - name: Add Android platform
+        run: |
+          cd frontend && npx cap add android || true
+
+      - name: Build Web App
+        run: |
+          cd frontend && npm run build
+
+      - name: Sync to Android
+        run: |
+          cd frontend && npx cap sync android
 
       - name: Build Android APK
         run: |
